@@ -89,12 +89,13 @@ ul li {
   background: transparent;
   border: none;
   outline: none;
-  font-weight: 14px;
+  font-weight: 16px;
   flex-grow: 1;
   color: black;
 }
 
 input[type="checkbox"] {
+  cursor: pointer;
   appearance: none;
   width: 25px;
   height: 25px;
@@ -111,8 +112,9 @@ input[type="checkbox"]:checked {
 }
 
 input[type="checkbox"]:checked::after {
-  content: "\2661";
-  font-size: 40px;
+  content: "\2764";
+  vertical-align: text-bottom;
+  font-size: 25px;
   position: absolute;
 }
 
