@@ -89,8 +89,7 @@ ul li {
   background: transparent;
   border: none;
   outline: none;
-  font-weight: 16px;
-  flex-grow: 1;
+  font-size: 16px;
   color: black;
 }
 
